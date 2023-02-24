@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+    /* background-color: aquamarine; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f3ecec;
+    /* background-color: rgb(252, 186, 244); */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 450px;
+    height: 675px;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    /* background-color: rgb(201, 124, 35); */
+}
+
+#whole-post-content {
+    width: 410px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#author-details {
+    display: flex;
+    padding: 6px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#author-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#author-profile-picture {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(141, 4, 118);
+    border-radius: 100%;
+    object-position: 0;
+    object-fit: cover;
+}
+
+#author-profile-picture > img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+#author-more-icon {
+    width: 25px;
+}
+
+#author-more-icon > img {
+    width: 100%;
+}
+
+#image-post {
+    height: 400px;
+}
+
+#image-post > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#engagement-info {
+    width: 100%;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#engagement-info-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.engagement-info-right-icon > img,
+.engagement-info-left-icon > img {
+    width: 25px;
+    height: 25px;
+}
+
+#author-likes-insight {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+#author-caption {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#author-comment {
+    font-size: 14.5px;
+    padding-bottom: 8px;
+}
+
+#add-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 10px 5px;
+}
+
+#add-comment > input {
+    padding: 3px;
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+::placeholder { 
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+}
