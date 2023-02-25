@@ -164,12 +164,13 @@ section {
     /* display: none; */
     position: absolute;
     /* margin-bottom:20px; */
-    transform: translateY(-25px);
+    transform: translateY(-40px);
     margin: 0 auto;
     background-color: rgb(72, 72, 72);
     color:#fff;
     text-align: center;
-    padding: 3px;
+    font-size: smaller;
+    padding: 10px;
     border-radius: 5px;
 }
 
