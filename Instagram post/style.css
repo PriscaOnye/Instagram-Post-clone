@@ -115,6 +115,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
     gap: 8px;
 }
 
@@ -157,4 +158,21 @@ section {
 ::placeholder { 
     color: rgb(0, 0, 0);
     opacity: 1; 
+}
+
+.tooltip{
+    /* display: none; */
+    position: absolute;
+    /* margin-bottom:20px; */
+    transform: translateY(-25px);
+    margin: 0 auto;
+    background-color: rgb(72, 72, 72);
+    color:#fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
 }
